@@ -75,6 +75,6 @@ data "aws_security_group" "this_private" {
 }
 
 data "tfe_outputs" "tfe" {
-  organization = "<your-organization-name>"
+  organization = "555"
   workspace    = "fem-eci-tfe"
 }
