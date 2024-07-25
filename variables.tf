@@ -7,7 +7,7 @@ variable "environment" {
 }
 
 variable "instance_type" {
-  default = "m7g.medium"
+  default = "t2.small"
   type    = string
 }
 
