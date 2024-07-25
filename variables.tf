@@ -7,14 +7,14 @@ variable "environment" {
 }
 
 variable "instance_type" {
-  default = "t3.medium"
+  default = "m7g.medium"
   type    = string
 }
 
-variable "market_type" {
-  default = "spot"
-  type    = string
-}
+# variable "market_type" {
+#   default = "spot"
+#   type    = string
+# }
 
 variable "name" {
   type = string
