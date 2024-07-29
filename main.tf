@@ -109,6 +109,9 @@ resource "aws_launch_template" "this" {
   }))
 }
 
+# NOTE: I reduce all sizes to 0 to avoid any AWS costs
+# becuase it ups EC2 instances and replace them and keep them running
+# event I manually stop them.
 resource "aws_autoscaling_group" "this" {
   desired_capacity = 0
   max_size         = 0
